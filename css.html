@@ -67,9 +67,103 @@
             </ul>
         </nav>
     </div>
-    <div class="container">
-        <h1>CSS</h1>
-        
+    <div id="contenido">
+        <h1>Estilos HTML - CSS
+        </h1>
+<p>        CSS significa hojas de estilo en cascada.
+</p>
+<p>CSS ahorra mucho trabajo. Permite controlar el diseño de varias páginas web a la vez.
+</p>
+<br>
+<img src="Recursos/imag22.png" alt="" style="height: 250px;width: 240px;">
+
+
+
+    <h2>¿Qué es CSS?
+    </h2>
+    <p>Las hojas de estilo en cascada (CSS) se utilizan para dar formato al diseño de una página web.
+    </p>
+    <p>¡Con CSS, puedes controlar el color, la fuente, el tamaño del texto, el espaciado entre elementos, cómo se posicionan y disponen los elementos, qué imágenes o colores de fondo se utilizarán, diferentes pantallas para diferentes dispositivos y tamaños de pantalla, y mucho más!
+    </p>
+
+    <p>Consejo: La palabra " en cascada" significa que un estilo aplicado a un elemento principal también se aplicará a todos los elementos secundarios dentro del elemento principal. Por lo tanto, si establece el color del texto del cuerpo en "azul", todos los encabezados, párrafos y otros elementos de texto dentro del cuerpo también tendrán el mismo color (a menos que especifique algo más).
+    </p>
+
+    <br>
+    <h2>Usando CSS
+    </h2>
+    <p>Se pueden añadir CSS a documentos HTML de tres maneras:
+    </p>
+    <ul>
+        <li><p>En línea : mediante el uso del styleatributo dentro de elementos HTML
+        </p></li>
+        <li><p> Interno : mediante el uso de un < style>elemento en la < head>sección
+</p></li>
+        <li><p> Externo : mediante el uso de un < link> elemento para vincular a un archivo CSS externo
+        </p></li>
+
+
+    </ul>
+    <p>La forma más común de agregar CSS es mantener los estilos en archivos CSS externos. Sin embargo, en este tutorial usaremos estilos internos y en línea, porque es más fácil demostrarlo y para que puedas probarlo tú mismo.
+    </p>
+
+
+    <h2>CSS en línea
+    </h2>
+    <p>Se utiliza un CSS en línea para aplicar un estilo único a un solo elemento HTML.
+    </p>
+<p>Un CSS en línea utiliza el styleatributo de un elemento HTML.
+</p>
+<p>El siguiente ejemplo establece el color del texto del < h1>elemento en azul y el color del texto del < p>elemento en rojo:
+</p>
+
+<br>
+<h2>Ejemplo</h2>
+
+<img src="" alt="">
+<br>
+<h2>CSS interno
+</h2>
+<p>Se utiliza un CSS interno para definir un estilo para una sola página HTML.
+</p>
+<p>Un CSS interno se define en la < head>sección de una página HTML, dentro de un < style>elemento.
+</p>
+
+<p>El siguiente ejemplo establece el color del texto de TODOS los < h1>elementos (en esa página) en azul y el color del texto de TODOS los < p>elementos en rojo. Además, la página se mostrará con un color de fondo "azul pálido": 
+</p>
+<br>
+
+<h2>CSS externo</h2>
+<p>Se utiliza una hoja de estilo externa para definir el estilo de muchas páginas HTML.
+</p>
+<p>Para utilizar una hoja de estilo externa, agregue un enlace a ella en la <head>sección de cada página HTML:
+</p>
+
+
+
+<p>La hoja de estilo externa se puede escribir en cualquier editor de texto. El archivo no debe contener código HTML y debe guardarse con extensión .css.
+</p>
+
+<p>Así es como se ve el archivo "styles.css":
+</p>
+<br>
+<pre>
+    "estilos.css":
+    body {
+      background-color: powderblue;
+    }
+    h1 {
+      color: blue;
+    }
+    p {
+      color: red;
+    }
+    Consejo: Con una hoja de estilo externa, puedes cambiar la apariencia de un sitio web completo, ¡modificando un archivo!
+    
+    
+    
+</pre>
+      
     </div>
 
 </body>
